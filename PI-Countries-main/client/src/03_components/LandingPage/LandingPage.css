@@ -1,0 +1,62 @@
+.landingPage {
+  background-image: url("../../05_img/mundi.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.landingTitle {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  margin-left: 80px;
+  margin-top: 70px;
+  font-size:70px; 
+  text-shadow: 3px 2px 1px red;
+
+}
+
+.landingSubTitle {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  margin-top: 145px;
+  margin-left: -490px;
+  font-size:40px;
+  text-shadow: 3px 2px 1px red;
+}
+
+.landingButton {
+  margin-left: 280px;
+  margin-top: 390px;
+  border-radius: 17px;
+  color: black;
+  border: 3px solid red;
+  padding: 20px 50px;
+  background-color: rgb(244, 244, 89);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px red;
+  box-shadow: 15px 10px 5px 2px;
+  cursor:pointer;
+}
+.henry{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(244, 244, 42);
+  margin-top: 195px;
+  margin-left: -396px;
+  font-size:40px;
+  text-shadow: 3px 2px 1px rgb(232, 28, 28);
+
+}
+.landingButton:hover{
+  text-shadow: 1px 1px 1px black;
+  color: rgb(221, 38, 38);
+  width: 65%;
+
+}
+
+ 
+

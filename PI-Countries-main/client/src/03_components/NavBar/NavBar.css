@@ -1,0 +1,62 @@
+.navBarConteiner{
+    background-color: #f5f6f7;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.navContent{
+    justify-content: space-around ;
+    display: inline-flex;
+    width: 100%;
+}
+
+.navLink{
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    text-decoration: none;
+    font-size: 1.8rem ;
+}
+
+.navLink:hover{
+    text-shadow: 2px 2px 2px black;
+    color: red;
+  
+  }
+
+.conteinerMerch{
+    font-weight: bolder;
+    color: #f5f6f7;
+    text-align: center;
+    margin-left: 3%;
+    width: 25%;
+}
+
+.countries{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hwb(57 5% 5%);
+    margin-left: -10%;
+    margin-top: 8%;
+    font-size: 3.2rem;
+    text-shadow: 1px 2px 1px black;   
+}
+
+.countries:hover{
+    text-shadow: 3px 3px 2px black;
+    color: red;
+  
+}
+.luis_viña{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.0rem;
+    margin-left: -4%;
+    margin-top: -2%;
+}
+

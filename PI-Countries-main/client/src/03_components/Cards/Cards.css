@@ -1,0 +1,65 @@
+.cardsContainer{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(206, 213, 226);
+    padding: 0px 10px 10px 10px;
+    
+}
+.filterContainer{
+    background-color: #f5f6f7;
+    border: 2px solid black;
+    display: inline-flex;
+    width: 100%;
+    height: 7%;
+    justify-content:flex-end;
+    
+}
+
+.cardsBox{
+    size: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    height: 84%;
+    justify-content: space-evenly;
+}
+
+.filterAndOrder{
+    size: bolder;
+    margin-top: 6px;
+    margin-left: -40px;
+    margin-right: 75px;
+    border-radius: 20px;
+    background-color:rgb(203, 57, 57);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.cambio{
+    size: bolder;
+    margin-top: 6px;
+    margin-left: -40px;
+    margin-right: 75px;
+    border-radius: 20px;
+    background-color:rgb(14, 16, 132);
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.filterAndOrder:hover{
+    background-color:rgb(106, 173, 206);
+    color: black;
+    cursor: pointer;
+}
+
+.filterOutSider {
+    size: bolder;
+    margin-top: 6px;
+    margin-left: -40px;
+    margin-right: 75px;
+    border-radius: 20px;
+    background-color:rgb(91, 159, 238);
+    color: black;
+    cursor: pointer;
+
+}
