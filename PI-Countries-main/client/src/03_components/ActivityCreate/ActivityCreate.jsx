@@ -23,7 +23,7 @@ export default function ActivityCreate() { //aqui comienza el componente
   });
 
   useEffect(() => {
-    dispatch(getActivities()); //getActivities es una accion
+    dispatch(getActivities()); //getActivities es una accion que se ejecutara antes que se renderice este componente
   }, [dispatch]);
 
   function handleChange(e) {
@@ -31,10 +31,7 @@ export default function ActivityCreate() { //aqui comienza el componente
   }
 
   function handleDelete(i) {
-    setInput({
-      ...input,
-      countryId: input.countryId.filter((el) => el !== i),
-    });
+    setInput({ ...input, countryId: input.countryId.filter((el) => el !== i),});
   }
 
   function handleSelect(e) {
@@ -43,9 +40,9 @@ export default function ActivityCreate() { //aqui comienza el componente
 
   function handleSubmit(e) {
     e.preventDefault();
-    if (!input.name)
+    if (!input.name) 
     return alert('Debes completar nombre de la Actividad !');
-    
+
     if (input.duration === "")
     return alert('Debes completar la Duración !');
 
@@ -124,7 +121,6 @@ export default function ActivityCreate() { //aqui comienza el componente
               {errors.difficulty && <p className="e"> {errors.difficulty}</p>}
             </div>
 
-
             <div className="inputActivities">
               <label> Rating: </label>
               <input
@@ -139,7 +135,7 @@ export default function ActivityCreate() { //aqui comienza el componente
               {errors.rating && <p className="e"> {errors.rating}</p>}
             </div>
 
-            <div className="seasonInput">
+            <div className="seasonInput"> 
               <select
                 className="i"
                 name="season"
